@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color : lightgreen;
+}
+
+h3{
+    color : blue
+}
+
+p{
+    color : red;
+}
+
+.div-title{
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    background-color: grey;
+    text-align: center;
+}
+
+.div-body{
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+}
+
+table, th, td{
+    border-style: solid;
+    background: lightskyblue;
+}
+
+table{
+    margin: auto;
+}
+
+.div-table{
+    text-align: center;
+}
