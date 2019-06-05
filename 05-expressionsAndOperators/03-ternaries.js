@@ -25,3 +25,7 @@ if (w == 0) {
 var age = 30;
 
 (age>=25) ? console.log("Yay! You can rent a car!") : (age>=21) ? console.log("Yay! You can drink!") : (age>=18) ? console.log("Yay!, you can vote!") : console.log("Sorry, you are too young to do anything fun.");
+
+
+var yes = -8
+(yes < 0 && yes > -10) ? console.log("worked") : (yes > 0) ? console.log("worked") : console.log("didn't work");

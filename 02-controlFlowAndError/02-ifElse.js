@@ -39,7 +39,7 @@ if (letter.toUpperCase() == letter) {
 }
 
 
-let age = 20
+let age = 23
 
 if (age <= 17) {
     console.log("Sorry you are too young to do anything");
@@ -47,8 +47,8 @@ if (age <= 17) {
     console.log("Yay! You can vote!");
 } else if (age >= 21 && age<25) {
     console.log("Yay!, You can drink!");
-} else (age >= 25) {
-    console.log("Yay! You can rent a car!");
+} else if (age >= 25) {
+    console.log("Yay you can rent a car!");
 }
 
 
