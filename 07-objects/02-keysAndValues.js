@@ -61,3 +61,24 @@ let baking = {};
 baking['zucchini'] = 'better make some bread!'; //* creating a new key/value pairing
 // console.log(baking.garden.vegetable); does not work
 console.log(baking[garden['vegetable']]);
+
+let pie = {}
+pie['apple'] = 'Pie, pie, me oh my!';
+
+
+let garden = {
+    vegetable: 'zucchini',
+    flower :  'sun flower',
+    fruit : 'apple',
+    water : true,
+    sun: true,
+    size : 10
+}
+
+let key = 'water';
+Object.keys(garden).forEach(g => {
+    console.log(g)
+    if (key === g) {
+        console.log("lets water the garden");
+    }
+});
