@@ -75,10 +75,13 @@ let garden = {
     size : 10
 }
 
+
+console.log(Object.keys(garden));
+
 let key = 'water';
 Object.keys(garden).forEach(g => {
     console.log(g)
-    if (key === g) {
-        console.log("lets water the garden");
-    }
+    // if (key === g) {
+    //     console.log("lets water the garden");
+    // }
 });

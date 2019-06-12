@@ -48,4 +48,4 @@ let netflix = {
    // console.log("Just season 2 info =>", netflix.season2.seasonInfo)
    // console.log("Episode title =>", netflix.season2.seasonInfo.episodeInfo[1].episodeName)
 
-    console.log("Episode number : name =>", netflix.season1.seasonInfo.episodeInfo[3].episode)
+    console.log("Episode number : name =>", netflix.season1)
